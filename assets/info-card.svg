@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 633" width="600" height="633" role="img" aria-label="System Info Neofetch: Dheeraj R S full stack engineer specs">
+<style>
+  .mono { font-family: ui-monospace, "SF Mono", "Fira Code", Menlo, Monaco, Consolas, monospace; }
+  .label { font-weight: 700; }
+  .val { font-weight: 500; }
+  .blink { animation: blink 0.9s steps(1) infinite; }
+  @keyframes blink { 0%,50% { opacity:1 } 50.01%,100% { opacity:0 } }
+</style>
+<defs>
+  <linearGradient id="info-border" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#238636" stop-opacity="0.85"/>
+    <stop offset="50%" stop-color="#388bfd" stop-opacity="0.75"/>
+    <stop offset="100%" stop-color="#a855f7" stop-opacity="0.85"/>
+  </linearGradient>
+  <linearGradient id="info-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#0c1017"/>
+    <stop offset="100%" stop-color="#06080c"/>
+  </linearGradient>
+  <filter id="info-glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1.4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<!-- Window Frame -->
+<rect x="2" y="2" width="596" height="629" rx="14" fill="url(#info-bg)"/>
+<path d="M 2 16 A 14 14 0 0 1 16 2 L 584 2 A 14 14 0 0 1 598 16 L 598 36 L 2 36 Z" fill="#161b22"/>
+<line x1="2" y1="36" x2="598" y2="36" stroke="#30363d" stroke-width="1"/>
+
+<!-- Window Controls -->
+<circle cx="20" cy="19" r="6" fill="#ff5f56"/>
+<circle cx="38" cy="19" r="6" fill="#ffbd2e"/>
+<circle cx="56" cy="19" r="6" fill="#27c93f"/>
+<text x="300" y="23" text-anchor="middle" fill="#8b949e" font-size="11.5" class="mono" font-weight="600">neofetch &#8212; dheeraj-rs@core</text>
+<text x="572" y="23" text-anchor="end" fill="#58a6ff" font-size="10" class="mono" font-weight="700">ARM64</text>
+
+<!-- Header: User @ Host -->
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0167; 0.0300; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.0167; 0.0300; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="28" y="66" fill="#f43f5e" font-size="14.5" class="mono" font-weight="800">dheeraj-rs@developer-workstation</text>
+</g>
+
+<!-- Divider 1 -->
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0233; 0.0367; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.0233; 0.0367; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <line x1="28" y1="88" x2="572" y2="88" stroke="#334155" stroke-dasharray="4 4" stroke-width="1.2"/>
+</g>
+
+<!-- Section 1: System Specs -->
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0300; 0.0433; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.0300; 0.0433; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="28" y="118" fill="#ff9e64" font-size="14" class="mono label">OS:</text>
+  <text x="142" y="118" fill="#f1f5f9" font-size="14" class="mono val">macOS Sonoma / Linux (Darwin Kernel)</text>
+</g>
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0367; 0.0500; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.0367; 0.0500; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="28" y="150" fill="#ff9e64" font-size="14" class="mono label">Host:</text>
+  <text x="142" y="150" fill="#cbd5e1" font-size="14" class="mono val">MacBook Pro (Apple Silicon M-Series)</text>
+</g>
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0433; 0.0567; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.0433; 0.0567; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="28" y="182" fill="#7aa2f7" font-size="14" class="mono label">Kernel:</text>
+  <text x="142" y="182" fill="#e2e8f0" font-size="14" class="mono val">FullStack-Engine v5.2.0-stable</text>
+</g>
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0500; 0.0633; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.0500; 0.0633; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="28" y="214" fill="#7aa2f7" font-size="14" class="mono label">Uptime:</text>
+  <text x="142" y="214" fill="#38bdf8" font-size="14" class="mono val">5+ Years Continuous Building</text>
+</g>
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0567; 0.0700; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.0567; 0.0700; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="28" y="246" fill="#73daca" font-size="14" class="mono label">Role:</text>
+  <text x="142" y="246" fill="#6ee7b7" font-size="14" class="mono val">Full Stack Developer</text>
+</g>
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0633; 0.0767; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.0633; 0.0767; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="28" y="278" fill="#73daca" font-size="14" class="mono label">Shell:</text>
+  <text x="142" y="278" fill="#93c5fd" font-size="14" class="mono val">zsh 5.9 (Apple Silicon ARM64)</text>
+</g>
+
+<!-- Divider 2 -->
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0700; 0.0833; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.0700; 0.0833; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <line x1="28" y1="304" x2="572" y2="304" stroke="#334155" stroke-dasharray="4 4" stroke-width="1.2"/>
+</g>
+
+<!-- Section 2: Technical Stack -->
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0767; 0.0900; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.0767; 0.0900; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="28" y="336" fill="#2ac3de" font-size="14" class="mono label">Frontend:</text>
+  <text x="142" y="336" fill="#67e8f9" font-size="14" class="mono val">React.js, Next.js, TypeScript, Tailwind</text>
+</g>
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0833; 0.0967; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.0833; 0.0967; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="28" y="368" fill="#2ac3de" font-size="14" class="mono label">Backend:</text>
+  <text x="142" y="368" fill="#93c5fd" font-size="14" class="mono val">Node.js, Express, REST APIs, Microservices</text>
+</g>
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0900; 0.1033; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.0900; 0.1033; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="28" y="400" fill="#ff9e64" font-size="14" class="mono label">Databases:</text>
+  <text x="142" y="400" fill="#fed7aa" font-size="14" class="mono val">MongoDB, MySQL, PostgreSQL, Redis</text>
+</g>
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0967; 0.1100; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.0967; 0.1100; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="28" y="432" fill="#bb9af7" font-size="14" class="mono label">DevOps:</text>
+  <text x="142" y="432" fill="#e9d5ff" font-size="14" class="mono val">Docker, Git, GitHub Actions, AWS</text>
+</g>
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.1033; 0.1167; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.1033; 0.1167; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="28" y="464" fill="#7aa2f7" font-size="14" class="mono label">Focus:</text>
+  <text x="142" y="464" fill="#ffffff" font-size="14" class="mono val">Scalable Systems &amp; High-Velocity UI</text>
+</g>
+<g opacity="0" transform="translate(0, 10)">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.1100; 0.1233; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,10; 0,10; 0,0; 0,0; 0,10; 0,10" keyTimes="0; 0.1100; 0.1233; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="28" y="496" fill="#73daca" font-size="14" class="mono label">Status:</text>
+  <text x="142" y="496" fill="#34d399" font-size="14" class="mono val">Open to impactful engineering roles</text>
+</g>
+
+<!-- Lower Terminal Divider (Aligned with terminal-card.svg at y=525) -->
+<line x1="20" y1="525.0" x2="580" y2="525.0" stroke="#30363d" stroke-width="1"/>
+
+<!-- Interactive Command Prompt at Bottom (Aligned with terminal-card.svg) -->
+<g opacity="0">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.1333; 0.1500; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="24" y="563.0" fill="#22c55e" font-size="13" font-weight="700" class="mono">&#10095;</text>
+  <text x="42" y="563.0" fill="#f2f2f2" font-size="13" font-weight="700" class="mono">systemctl status developer-workstation</text>
+</g>
+
+<!-- Output line with status badge and blinking cursor -->
+<g opacity="0">
+  <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.1500; 0.1700; 0.9111; 0.9778; 1" dur="9.0s" repeatCount="indefinite"/>
+  <text x="24" y="585.0" fill="#38bdf8" font-size="12.5" font-weight="600" class="mono">&#8594;</text>
+  <text x="42" y="585.0" fill="#34d399" font-size="13" font-weight="700" class="mono">&#9679; active (running)</text>
+  <text x="195" y="585.0" fill="#94a3b8" font-size="12.5" class="mono">&#8212; 0 errors, ready to architect &amp; build</text>
+  <rect class="blink" x="572" y="574.0" width="7" height="14" fill="#38bdf8" filter="url(#info-glow)"/>
+</g>
+
+<!-- Finished Window Border (Rendered on top for crisp, seamless edges) -->
+<rect x="2" y="2" width="596" height="629" rx="14" fill="none" stroke="url(#info-border)" stroke-width="1.5"/>
+</svg>
